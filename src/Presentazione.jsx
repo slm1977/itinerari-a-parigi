@@ -4,7 +4,7 @@ import './App.css'; // Puoi anche definire gli stili in un file separato
 
 const Presentazione = () => {
   return (
-    <div style={{ marginTop: '50px', marginBottom: '30px', backgroundColor: 'bisque' }}>
+    <div style={{ marginTop: '-20px', marginBottom: '30px', backgroundColor: 'bisque' }}>
       <div className="container-fluid imageBorder">
         <div className="row">
           <p></p>
@@ -125,11 +125,11 @@ const Presentazione = () => {
                   }}
                 >
                   <img
-                    height="80px"
+                    height="40px"  width="40px"
                     style={{ marginTop: '20px', marginBottom: '20px' }}
                     src="cuoreanimato.gif"
                     alt="Cuore animato"
-                    width="80px"
+                   
                   />
                   <br />
                 </div>

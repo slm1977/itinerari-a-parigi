@@ -1,0 +1,27 @@
+.speech-bubble {
+    position: relative;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 1rem;
+  }
+  
+  .speech-bubble p {
+    margin: 0;
+  }
+  
+  .speech-bubble-arrow {
+    position: absolute;
+    bottom: -20px; /* Posiziona la freccia sotto la nuvoletta */
+    left: 30px; /* Centra la freccia sotto la nuvoletta */
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f0f0f0;
+  }
+  
