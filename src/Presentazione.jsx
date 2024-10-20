@@ -6,13 +6,7 @@ const Presentazione = () => {
   return (
     <div style={{ marginTop: '-20px', marginBottom: '30px', backgroundColor: 'bisque' }}>
       <div className="container-fluid imageBorder">
-        <div className="row">
-          <p></p>
-        </div>
-
-        <div
-          className="row customFont"
-        >
+        <div className="row customFont">
           <div className="col-md-2"></div>
           <div className="col-md-8">
             <div
